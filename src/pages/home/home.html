@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      ClickEventTest
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button (click)="btnClick()">button</button>
+  <div>{{ btnCount }}</div>
+  <h1 style="background-color: red" tappable (click)="tappableClick()">tappable</h1>{{ tappableCount }}
+  <h1 style="background-color: yellow" (click)="unTappableClick()">unTappable</h1>{{ unTappableCount }}
+  <div><button ion-button (tap)="btnTap()">buttonTap</button></div>
+  <div>{{ btnTapCount }}</div>
+  <h1 style="background-color: yellowgreen" (tap)="unclickableTap()">unclickable</h1>{{ unclickableTapCount }}
+</ion-content>
