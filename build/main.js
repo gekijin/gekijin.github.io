@@ -85,10 +85,9 @@ var HomePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\bzrin\Documents\GitHub\gekijin.github.io\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      ClickEventTest\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <button ion-button (click)="btnClick()">button</button>\n  <div>{{ btnCount }}</div>\n  <h1 style="background-color: red" tappable (click)="tappableClick()">tappable</h1>{{ tappableCount }}\n  <h1 style="background-color: yellow" (click)="unTappableClick()">unTappable</h1>{{ unTappableCount }}\n  <div><button ion-button (tap)="btnTap()">buttonTap</button></div>\n  <div>{{ btnTapCount }}</div>\n  <h1 style="background-color: yellowgreen" (tap)="unclickableTap()">unclickable</h1>{{ unclickableTapCount }}\n</ion-content>\n'/*ion-inline-end:"C:\Users\bzrin\Documents\GitHub\gekijin.github.io\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
     return HomePage;
-    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
