@@ -22,8 +22,8 @@ import { HomePage } from '../pages/home/home';
     HomePage
   ],
   providers: [
-    StatusBar,
-    SplashScreen,
+    // StatusBar,
+    // SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
