@@ -62,18 +62,23 @@ var HomePage = (function () {
         this.unclickableTapCount = 0;
     }
     HomePage.prototype.btnClick = function () {
+        console.log('btnClick');
         this.btnCount++;
     };
     HomePage.prototype.tappableClick = function () {
+        console.log('tappableClick');
         this.tappableCount++;
     };
     HomePage.prototype.unTappableClick = function () {
+        console.log('unTappableClick');
         this.unTappableCount++;
     };
     HomePage.prototype.btnTap = function () {
+        console.log('btnTap');
         this.btnTapCount++;
     };
     HomePage.prototype.unclickableTap = function () {
+        console.log('unclickableTap');
         this.unclickableTapCount++;
     };
     HomePage = __decorate([
