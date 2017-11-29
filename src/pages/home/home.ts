@@ -18,27 +18,22 @@ export class HomePage {
   }
 
   btnClick(): void {
-    console.log('btnClick')
     this.btnCount++;
   }
 
   tappableClick(): void {
-    console.log('tappableClick')
     this.tappableCount++;
   }
 
   unTappableClick():  void {
-    console.log('unTappableClick')
     this.unTappableCount++;
   }
 
   btnTap(): void {
-    console.log('btnTap')
     this.btnTapCount++;
   }
 
   unclickableTap(): void {
-    console.log('unclickableTap')
     this.unclickableTapCount++;
   }
 
