@@ -7,11 +7,11 @@
 </ion-header>
 
 <ion-content padding>
-  <button ion-button (click)="btnClick()">button</button>
+  <button ion-button (click)="btnClick()">button-click</button>
   <div>{{ btnCount }}</div>
-  <h1 style="background-color: red" tappable (click)="tappableClick()">tappable</h1>{{ tappableCount }}
-  <h1 style="background-color: yellow" (click)="unTappableClick()">unTappable</h1>{{ unTappableCount }}
-  <div><button ion-button (tap)="btnTap()">buttonTap</button></div>
+  <h1 style="background-color: red" tappable (click)="tappableClick()">with-tappable-click</h1>{{ tappableCount }}
+  <h1 style="background-color: yellow" (click)="withoutTappableClick()">without-tappalbe-click</h1>{{ withoutTappableCount }}
+  <div><button ion-button (tap)="btnTap()">button-tap</button></div>
   <div>{{ btnTapCount }}</div>
-  <h1 style="background-color: yellowgreen" (tap)="unclickableTap()">unclickable</h1>{{ unclickableTapCount }}
+  <h1 style="background-color: yellowgreen" (tap)="unclickableTap()">unclickable-tap</h1>{{ unclickableTapCount }}
 </ion-content>

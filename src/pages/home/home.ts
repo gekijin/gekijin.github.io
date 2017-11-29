@@ -9,7 +9,7 @@ export class HomePage {
 
   btnCount: number = 0;
   tappableCount: number = 0;
-  unTappableCount: number = 0;
+  withoutTappableCount: number = 0;
   btnTapCount: number = 0;
   unclickableTapCount: number = 0;
 
@@ -25,8 +25,8 @@ export class HomePage {
     this.tappableCount++;
   }
 
-  unTappableClick():  void {
-    this.unTappableCount++;
+  withoutTappableClick():  void {
+    this.withoutTappableCount++;
   }
 
   btnTap(): void {
