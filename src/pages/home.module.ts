@@ -4,7 +4,7 @@ import { HomePage } from './home/home';
 
 @NgModule({
   imports: [
-    IonicModule//.forRoot(HomePage),
+    IonicModule
   ],
   declarations: [ HomePage ],
   entryComponents: [ HomePage ]
